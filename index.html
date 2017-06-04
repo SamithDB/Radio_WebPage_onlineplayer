@@ -1,0 +1,831 @@
+<!--
+Author: Samith Basnayaka
+-->
+<!DOCTYPE html>
+
+<html>
+	<head>
+                <meta charset="utf-8">
+		<title>SawiyaRadio.com</title>
+                
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+                <link href="css/font.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!-- js -->
+		<script src="js/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- js -->
+                
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+                <!-- start-smoth-scrolling -->
+                
+                
+                
+                
+	</head>
+	<body>
+		<!-- header -->
+		<div id="home" class="header">
+			<!-- container -->
+			<div class="container">
+				<div class="header-logo">
+                                    <h1 class=" topoic-up">සවිය <span class=" topoic-up">FM</span></h1>
+				</div>
+				<div class="top-nav">
+					<img src="images/logo_1.png" width="350" alt="">
+				</div>
+				<div class="clearfix"> </div>
+				<!-- banner Slider starts Here -->
+	  			<script src="js/responsiveslides.min.js"></script>
+				 <script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 4
+					  $("#slider4").responsiveSlides({
+						auto: true,
+						pager: true,
+						nav: false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						  $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+						  $('.events').append("<li>after event fired.</li>");
+						}
+					  });
+				
+					});
+				  </script>
+				<!--//End-slider-script -->
+				<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider4">
+						<li>
+							<div class="header-info">
+                                                            <div class="button"><a href="server.php" target="_blank">සජීවී විකාශණය</a></div>
+                                                            <p>සූර්ය සවිය</p>
+                                                            <p>102.9<span> හරහා </span><span class="sub-text"></span></p>
+                                                            <p>සබරගමුවෙන් විශ්ව යථාර්ථයට</p>
+								<div class="red">30 ජනවාරි 2017</div>
+								
+							</div>
+						</li>
+						<li>
+							<div class="header-info">
+                                                                <div class="button"><a href="server.php" target="_blank">සජීවී විකාශණය</a></div>
+                                                                <p>Beet Box</p>
+								<p>102.9<span> හරහා </span><span class="sub-text"></span></p>
+								<p>සබරගමුවෙන් විශ්ව යථාර්ථයට</p>
+								<div class="red">31 ජනවාරි 2017</div>
+								
+							</div>
+						</li>
+						<li>
+							<div class="header-info">
+								<div class="button"><a href="server.php" target="_blank">සජීවී විකාශණය</a></div>
+                                                                <p>අළුපාට හැන්දෑව</p>
+								<p>102.9<span> හරහා </span><span class="sub-text"></span></p>
+								<p>සබරගමුවෙන් විශ්ව යථාර්ථයට</p>
+								<div class="red">01 පෙබරවාරි 2017</div>
+								
+							</div>
+						</li>
+						<li>
+							<div class="header-info">
+								<div class="button"><a href="server.php" target="_blank">සජීවී විකාශණය</a></div>
+                                                                <p>තරු අරුන්දතී</p>
+								<p>102.9<span> හරහා </span><span class="sub-text"></span></p>
+								<p>සබරගමුවෙන් විශ්ව යථාර්ථයට</p>
+								<div class="red">02 පෙබරවාරි 2017</div>
+								
+							</div>
+						</li>
+						<li>
+							<div class="header-info">
+								<div class="button"><a href="server.php" target="_blank">සජීවී විකාශණය</a></div>
+                                                                <p>සරසවි වටරවුම</p>
+								<p>102.9<span> හරහා </span><span class="sub-text"></span></p>
+								<p>සබරගමුවෙන් විශ්ව යථාර්ථයට</p>
+								<div class="red">03 පෙබරවාරි 2017</div>
+								
+							</div>
+						</li>
+					</ul>
+					<div class="clearfix"> </div>
+					<!-- banner Slider Ends Here --> 
+				</div>
+			</div>
+			<!-- container -->
+		</div>
+		<!-- header -->
+		<!-- sticky -->
+		<div class="sticky">
+			<!-- container -->
+			<div class="container">
+				<div class="top-header">
+					<div class="fixed-header">
+					<div class="sticky-logo">
+						<h1><a class="scroll" href="#home">සවිය <span>ගුවන්විදුලිය</a> </span></h1>
+					</div>	
+					<div class="sticky-nav">
+						<ul>
+							<li><a class="scroll active" href="#about">සවිය අප ගැන</a></li>   
+							<li><a class="scroll" href="#event">වැඩසටහන් </a></li>
+                             <li><a  href="https://goo.gl/fqyhl1" >AndroidApp</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!-- container -->	
+		</div>
+		<!-- sticky -->
+		<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".top-header").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".top-header").addClass("fixed");
+				}else{
+					$(".top-header").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!-- /script-for sticky-nav -->
+                
+		<!-- banner -->
+		<div class="banner">
+                    <a class="play-icon popup-with-zoom-anim" href="https://www.youtube.com/" target="_blank"><span> </span></a>
+                        <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+		</div>
+		<!-- banner -->
+                
+		<!-- about -->
+		<div id="about" class="about">
+			<!-- container -->	
+			<div class="container">
+				<h3>සවිය අප ගැන</h3>
+				<label> </label>
+			</div>
+			<!-- container -->	
+			<div class="border">
+				
+			</div>
+			<!-- about-info -->
+			<div class="about-info">
+				<!-- container -->	
+				<div class="container">
+					<div class="col-md-8 about-info-left">
+                                            <div class="about-right-hedding">
+                                                <p>
+                                                <h3>
+                                                    පිරිහිඹ්නි දියවර කලා මංගල්‍යයට සමගාමීව සබරගමුවෙන් විශ්ව යථාර්තයට යන තේමාව ඔස්සේ ඔබ වෙත සමීප වන සවිය FM විශ්වවිද්‍යාලයිය මහා ශිෂ්‍ය සංගමයේ මාධ්‍ය අනුකමිටුව විසින් සංවිධානය කරනු ලබයි.  
+                                                </h3>
+                                                    <br>
+                                                <h3>
+                                                    විශ්වවිද්‍යාලය තුල සෑම කටයුත්තක දීම ඉතා සක්‍රීය ලෙස දායක වෙමින්, තම හැකියාවන් ඔප්නන්වාගත් සවිය කණ්ඩායම දින 5ක් පුරාවට සවිය FM ඔස්සේ ඔබව ඇමතීමට සූදානම්.    
+
+                                                </h3>
+                                                <br>
+                                                <br>
+                                                </p>
+                                            </div>
+						<p class="bottom-text"></p>
+						<div class="map">
+                                                    <span> 
+                                                    </span>
+							<img src="images/map3.png" alt="" />
+						</div>
+					</div>
+					<div class="col-md-4 about-info-right">
+						<div class="about-img">
+							<span ><img src="images/logo_1.png" width="300" alt=""></span>
+						</div>
+							<div class="about-right-hedding">
+								<h3>සවිය විකාශය</h3>
+							</div>
+							<div class="border-bottom1"> </div>
+							<div class="timeline-grid">
+								<label class="red"> </label>
+								<h4>2006</h4>
+								<p>ආරම්භය</p>
+							</div>
+							<div class="timeline-grid middle">
+								<label class="red1"> </label>
+								<h4>2015</h4>
+                                                                <p>පිරිහිඹිනි දියවර </br>2015</p>
+							</div>
+							<div class="timeline-grid bottom">
+								<label class="red2"> </label>
+								<h4>2017</h4>
+								<p>පිරිහිඹිනි දියවර </br>2017</p>
+							</div>
+							<div class="border-bottom3"> </div>
+							
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!-- container -->	
+				<div class="border-bottom"> </div>
+			</div>
+			<!-- about-info -->
+		</div>
+		<!-- about -->
+		<!-- content-events -->
+		<div id="event" class="content-event">
+			<!-- container -->
+			<div class="container">
+				<h3>අද වැඩසටහන් </h3>
+				<div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">සූර්ය සවිය</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">05.30 - 06.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">සිංහල පුවත්</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">07.00 - 07.10</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">සරසවි වටරවුම</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">08.00 - 09.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">සරසවි සංවාද</li>
+                                                        <li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">09.00 - 10.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">කුරුටු ගීයෙන් ඔබ්බට</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">10.00 -	12.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">පුවත්</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">12.00 - 12.20</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">Beat Box</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">12.30 - 14.30</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">වීදියේ නාට්‍ය</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">14.00 - 15.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">Tamil Discussion</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">15.00 - 16.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">සිනමා සිත්තම</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">16.30 - 17.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">විනිවිද</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">17.00 - 18.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">අළුපාට හැන්දෑව</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">18.00 - 19.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">පුවත්</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">19.00 - 19.20</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">Ever Green Melody</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">19.30 - 20.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">Tamil Chart Show</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">20.00 - 21.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">තරු අරුන්දතී</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">21.00 - 22.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">Divergent</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">22.00 - 22.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">සිහින සද රැක</li>
+							<li class="date">2017 පෙබරවාරි 03</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">22.30 - 23.59</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">සවිය රාත්‍රිය</li>
+							<li class="date">2017 පෙබරවාරි 04</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">00.01 - 01.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+                                <div class="event-grids">
+					<div class="col-md-3 event-grid">
+						<div class="pic"> </div>
+						<ul>
+							<li class="hedding">අළුයම සවිය</li>
+							<li class="date">2017 පෙබරවාරි 04</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 event-grid small-text">
+						<p>102.9<span> හරහා </span></p>
+					</div>
+					<div class="col-md-2 event-grid large-text">
+						<p class="text">01.00 - 05.00</p>
+					</div>
+					<div class="col-md-3 event-grid text-button">
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- container -->
+		</div>
+		<!-- contact-events -->
+		<!-- portfolio -->
+		<div class="portfolio">
+			<!-- container -->
+			<div class="container">
+				<h3>මතකයන් </h3>
+				<div class="gallery-images">
+					<div class="gallery-image">
+						<img src="memories/memory1.jpg" alt="" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</div>
+					<div class="gallery-image">
+						<img src="memories/memory2.jpg" alt="" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</div>
+					<div class="gallery-image right">
+						<img src="memories/memory3.jpg" alt="" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</div>
+					<div class="gallery-image">
+						<img src="memories/memory7.jpg" alt="" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</div>
+					<div class="gallery-image">
+						<img src="memories/memory5.jpg" alt="" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</div>
+					<div class="gallery-image right">
+						<img src="memories/memory6.jpg" alt="" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</div>
+                                        <div class="gallery-image">
+						<img src="memories/memory8.jpg" alt="" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</div>
+                                        <div class="gallery-image">
+						<img src="memories/memory4.jpg" alt="" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</div>
+                                        <div class="gallery-image right">
+						<img src="memories/memory9.jpg" alt="" />
+						<div class="caption">
+							<span> </span>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="gallery-text">
+					
+					</div>
+				</div>
+			</div>
+			<!-- container -->
+		</div>
+		<!-- portfolio -->
+		<!-- contact -->
+		<div id="contact" class="contact">
+			<!-- container -->
+			<div class="container">
+				<h3>විමසීම් </h3>
+				<div class="col-md-7">
+					<div class="col-md-6">
+						<form>
+							<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+							<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+						
+							<textarea value="Message:" onfocus="if(this.value == 'Message') this.value='';" onblur="if(this.value == '') this.value='Message';">Message</textarea>	
+						</form>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="submit-button">
+						<form>
+							<input type="submit" value="SEND">
+						</form>
+                                        </div>
+				</div>
+				<div class="col-md-5">
+					<ul>
+                                            <li><a href="https://www.facebook.com/sawiyaFM/" target="_blank" class="facebook"> </a></li>
+						<li><a href="#" class="twitter"> </a></li>
+						<li><a href="#" class="rect"> </a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!-- container -->
+		</div>
+		<!-- contact -->
+		<div class="border-bottom"> </div>
+                
+                
+                
+		<!-- footer -->
+		<div class="footer">
+			<div class="copyright">
+				<p>
+					මහා ශිෂ්‍ය සංගමය - ශ්‍රී ලංකා සබරගමුව විශ්වවිද්‍යාලය 
+				</p>
+			</div>
+		</div>
+		<!-- footer -->
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- content-Get-in-touch -->
+	</body>
+</html>
